@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:orientation="horizontal"
+    android:id="@+id/feedItemLayout">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="20">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/gameImage"
+            android:src="@mipmap/ic_launcher_round"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tournament_title"
+            android:id="@+id/tournamentTitle"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:layout_toEndOf="@+id/gameImage"/>
+
+        <TextView
+            android:id="@+id/tournamentDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tournamentTitle"
+            android:layout_toEndOf="@+id/gameImage"
+
+            android:text="@string/missing_date"/>
+
+        <TextView
+            android:id="@+id/tournamentLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/missing_address"
+
+            android:layout_below="@id/tournamentDate"
+            android:layout_toEndOf="@+id/gameImage">
+        </TextView>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_weight="80"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        >
+
+        <ImageButton
+            android:background="@color/transparent"
+            android:id="@+id/editButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/edit">
+        </ImageButton>
+
+    </LinearLayout>
+
+
+</LinearLayout>

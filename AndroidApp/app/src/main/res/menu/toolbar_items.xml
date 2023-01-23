@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/refreshButton"
+        android:icon="@drawable/ic_refresh"
+        android:title="@string/refresh"
+        app:showAsAction="always">
+
+    </item>
+
+    <item android:id="@+id/createTournament"
+        android:title="@string/create_tournament">
+    </item>
+
+    <item android:id="@+id/viewTournaments"
+        android:title="@string/my_tournaments">
+    </item>
+
+    <item android:id="@+id/likedTournaments"
+        android:title="@string/liked_tournaments">
+    </item>
+
+    <item
+        android:id="@+id/registeredTournaments"
+        android:title="@string/registered_tournaments"></item>
+
+</menu>

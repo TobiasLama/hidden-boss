@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../HiddenBoss.iml" filepath="$PROJECT_DIR$/../HiddenBoss.iml" group="HiddenBoss" />
+      <module fileurl="file://$PROJECT_DIR$/app.iml" filepath="$PROJECT_DIR$/app.iml" group="HiddenBoss/app" />
+    </modules>
+  </component>
+</project>

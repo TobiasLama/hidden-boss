@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="app" uuid="f7a34070-06d4-4ad5-94a3-012e886b23d7">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\Tobbe\Documents\Plugg\TDDD80\tddd80-projekt-u1-b-g01-01\app.db</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="" uuid="45bca28d-2224-4044-b78f-33147200e3bd">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\Tobbe\Documents\Plugg\TDDD80\tddd80-projekt-u1-b-g01-01\.coverage</jdbc-url>
+    </data-source>
+  </component>
+</project>
